@@ -5,7 +5,7 @@ Use of this project is further governed by the terms of the [Creative Commons At
 
 # Connecticut Election Shapefile
 
-This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu.
+This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook. As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies.
 
 # **Sources**
 
@@ -29,7 +29,7 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 # **Processing**
 
-Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup). Election data were also prorated onto VTDs from the original precinct shapefile using the `maup` package.
+Data were cleaned and aggregated in the corresponding jupyter notebook using MGGG’s python library [maup](https://github.com/mggg/maup).
 
 # **Metadata**
 
@@ -92,7 +92,3 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `USS18D`: Number of votes for 2018 Democratic senate candidate
 - `USS18R`: Number of votes for 2018 Republican senate candidate
 - `USS18O`: Number of votes for 2018 other party's senate candidate
-
-# **Projection**
-
-The shapefile uses a UTM NAD83 projection (EPSG: 4269).
