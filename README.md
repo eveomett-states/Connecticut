@@ -25,7 +25,7 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-connecticut-precinct-and-election-results/): VEST 2016 precinct and election results
 
-[200 County data](https://redistrictingdatahub.org/dataset/connecticut-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
+[2020 County data](https://redistrictingdatahub.org/dataset/connecticut-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
 
 # **Processing**
 
